@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
+import Github from "../src/components/Github";
 import {
   servicesSliderProps,
   testimonialsSliderProps,
@@ -60,24 +61,24 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
+                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/balalikhithkanigolla/">
                       <i aria-hidden="true" className="fab fa-linkedin" />
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
+                    <a target="_blank" rel="nofollow" href="https://www.github.com/likhithkanigolla/">
                       <i aria-hidden="true" className="fab fa-github" />
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-behance" />
+                    <a target="_blank" rel="nofollow" href="https://www.instagram.com/likhithkanigolla/">
+                      <i aria-hidden="true" className="fab fa-instagram" />
                     </a>
                   </div>
                 </div>
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/"
+                    href="https://drive.google.com/file/d/1z7J1i378BtOdPES2KG-mG6kJTzRG7sH0/view?usp=sharing"
                     className="btn"
                   >
-                    <span>Download CV</span>
+                    <span>View CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
                     {" "}
@@ -144,6 +145,7 @@ const Index = () => {
         className="lui-section lui-gradient-bottom"
         id="services-section"
       >
+        <Github />
         {/* Heading */}
         <div className="lui-heading">
           <div className="container">
@@ -153,7 +155,7 @@ const Index = () => {
                 data-splitting="words"
                 data-animate="active"
               >
-                <span> What I Do </span>
+                <span> What I do </span>
               </h2>
               <div
                 className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -179,24 +181,23 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Web Development </span>
+                    <span> Digital Twin </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Web Design &amp; Logo </span>
+                    <span>Full Stack Web Development</span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Web designers craft the overall vision &amp; plan for a
-                      website layout. Professional logo development: Business,
-                      Company, or Personal.{" "}
+                     Creating comprehensive web applications, covering both front-end and back-end development. It includes Implementing responsive designs, managing databases, and ensuring smooth server-side functionality.
+                      {" "}
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  {/* <a href="#pricing-section" className="lnk">
                     {" "}
                     See Pricing{" "}
-                  </a>
+                  </a> */}
                   <div
                     className="image"
                     style={{
@@ -208,7 +209,7 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Apps Development </span>
+                    <span> Penetration Testing </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
@@ -217,16 +218,14 @@ const Index = () => {
                   <div className="lui-text">
                     <div>
                       <p>
-                        Design Software applications to run on mobile devices.
-                        Modern and mobile-ready application that will help you
-                        reach all of your marketing.
+                        Penetration testing involves simulating cyber-attacks to identify vulnerabilities in a system's security. It helps ensure robust defenses by uncovering potential weaknesses before malicious actors can exploit them.
                       </p>
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  {/* <a href="#pricing-section" className="lnk">
                     {" "}
                     See Pricing{" "}
-                  </a>
+                  </a> */}
                   <div
                     className="image"
                     style={{
@@ -235,7 +234,7 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              {/* <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
                     <span> Game Development </span>
@@ -263,7 +262,7 @@ const Index = () => {
                     }}
                   />
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
@@ -271,20 +270,18 @@ const Index = () => {
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Google Ads </span>
+                    <span> DevOps and Cloud  </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Advertising services include: Google search result pages,
-                      gmails, YouTube and other websites participated in Google
-                      Ads program.{" "}
+                      Automating the software development lifecycle and managing cloud infrastructure. This involves creating and managing CI/CD pipelines to streamline integration and deployment, ensuring rapid and reliable software delivery. {" "}
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  {/* <a href="#pricing-section" className="lnk">
                     {" "}
                     See Pricing{" "}
-                  </a>
+                  </a> */}
                   <div
                     className="image"
                     style={{
@@ -293,7 +290,7 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              {/* <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
                     <span> Music Writing </span>
@@ -321,7 +318,7 @@ const Index = () => {
                     }}
                   />
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <div className="swiper-pagination" />
             </Swiper>
             <div className="lui-bgtitle">
@@ -367,18 +364,17 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> PHP </span>
+                      <span> Python </span>
                     </h6>
+
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        Proficient in Python, primarily using FastAPI for building high-performance web applications and APIs.
                         </p>
                       </div>
                     </div>
-                    <div className="dots">
+                    {/* <div className="dots">
                       <div className="dot" style={{ width: "85%" }}>
                         <span />
                       </div>
@@ -387,25 +383,23 @@ const Index = () => {
                       <span className="num">
                         85 <span>%</span>
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                   <div
                     className="skills-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> Python </span>
+                      <span> React JS</span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        Experienced in developing dynamic user interfaces, Dashboards and single-page applications with React.js.
                         </p>
                       </div>
                     </div>
-                    <div className="dots">
+                    {/* <div className="dots">
                       <div className="dot" style={{ width: "75%" }}>
                         <span />
                       </div>
@@ -414,8 +408,81 @@ const Index = () => {
                       <span className="num">
                         75 <span>%</span>
                       </span>
+                    </div> */}
+                  </div>
+
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> Postgres </span>
+                    </h6>
+
+                    <div className="text">
+                      <div>
+                        <p>
+                        Skilled in managing and querying relational databases using PostgreSQL. Research on database optimization and performance tuning.
+                        </p>
+                      </div>
                     </div>
                   </div>
+
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-items">
+                <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> Google Cloud </span>
+                    </h6>
+
+                    <div className="text">
+                      <div>
+                        <p>
+                        Adept at leveraging Google Cloud services for scalable and reliable cloud-based solutions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> DevOps Pipelines</span>
+                    </h6>
+
+                    <div className="text">
+                      <div>
+                        <p>
+                        Experienced in setting up and managing DevOps pipelines, primarily using Jenkins, GitHub, and GitLab for CI/CD automation and version control.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> Docker</span>
+                    </h6>
+
+                    <div className="text">
+                      <div>
+                        <p>
+                        Competent in using Docker for containerizing applications and managing development environments.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -425,59 +492,18 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> JavaScript </span>
+                      <span> Apache Kafka </span>
                     </h6>
+
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        Experienced in using Apache Kafka for real-time data streaming and processing in distributed systems.
                         </p>
                       </div>
                     </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "75%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        75 <span>%</span>
-                      </span>
-                    </div>
                   </div>
-                  <div
-                    className="skills-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <h6 className="name">
-                      <span> React </span>
-                    </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "70%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        70 <span>%</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <div className="skills-items">
+
                   <div
                     className="skills-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
@@ -485,24 +511,13 @@ const Index = () => {
                     <h6 className="name">
                       <span> WordPress </span>
                     </h6>
+
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        Experienced in using WordPress for creating and managing content-rich websites.
                         </p>
                       </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "90%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        90 <span>%</span>
-                      </span>
                     </div>
                   </div>
                   <div
@@ -510,26 +525,15 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> Adobe XD </span>
+                      <span> Grafana </span>
                     </h6>
+
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                        Proficient in using Grafana for monitoring and visualizing real-time data and system metrics.
                         </p>
                       </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "80%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        80 <span>%</span>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -624,7 +628,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-2.jpg"
-                      alt="Barbara Wilson"
+                      alt="Saqlan "
                     />
                     <div className="icon">
                       <svg
@@ -646,18 +650,16 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                We developed a great partnership with Bala Likhith Kanigolla and his dedication to a website is evident in all aspects of the site.He creates a professional,attractive and effective website.He will be the "Best Website Designer" to our company.
                       </p>
                     </div>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Barbara Wilson</span>
+                      <span>Saqlin </span>
                     </h6>
                     <div className="author">
-                      <span>CEO Company</span>
+                      <span>Founder of Turning Point Consulatncy Services</span>
                     </div>
                   </div>
                   <div
@@ -674,7 +676,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-1.jpg"
-                      alt="Charlie Smith"
+                      alt="Sohail Shaik"
                     />
                     <div className="icon">
                       <svg
@@ -696,18 +698,18 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+   
+                      Likhith is a great and hardworking person. He has been working and handling all the technical work in our organization with perfection. The way he handled every task with such a ease is really admirable. I wish all the luck to him for his further journey.
+                                        
                       </p>
                     </div>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Charlie Smith</span>
+                      <span>Sohail Shaik</span>
                     </h6>
                     <div className="author">
-                      <span>Designer</span>
+                      <span>Founder of Gravity</span>
                     </div>
                   </div>
                   <div
@@ -724,7 +726,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-4.jpg"
-                      alt="Roy Wang"
+                      alt="zahran"
                     />
                     <div className="icon">
                       <svg
@@ -746,18 +748,19 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                       
+                      Mr. Likhith, has done a wonderful job in designing/styling our organizations website. He has shown his real potential as a team player and leader. It is helpful to showcase our all events at a glance. His quality of efforts is reflected by his work, which really satisfactory.
+
+                                        
                       </p>
                     </div>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Roy Wang</span>
+                      <span>Zahran</span>
                     </h6>
                     <div className="author">
-                      <span>Manager GYM</span>
+                      <span>CEO of Dragcon(2018-2022) </span>
                     </div>
                   </div>
                   <div
@@ -774,7 +777,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-3.jpg"
-                      alt="Jennifer Smith"
+                      alt="Saransh"
                     />
                     <div className="icon">
                       <svg
@@ -796,18 +799,19 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                    
+                      I am really happy with your service, it is exceptional, Web Design team is just great.I am impressed. Very co-operative and creative team,  we enjoyed to work with you. I will recommend to all my customers, friends and clients.Keep it up
+                                        Thank you for your great job.
+                                        
                       </p>
                     </div>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Jennifer Smith</span>
+                      <span>Sarnash</span>
                     </h6>
                     <div className="author">
-                      <span>CEO &amp; Founder</span>
+                      <span>CEO &amp; Founder, SEF Groups</span>
                     </div>
                   </div>
                   <div
@@ -824,7 +828,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-5.jpg"
-                      alt="Paul Freeman"
+                      alt="Bhavya"
                     />
                     <div className="icon">
                       <svg
@@ -846,18 +850,16 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      Mr. Likhith is very passionate about the IT domain and its services. He has gained a good appreciation and  become the mentor for his juniors. Precisely speaking, I must appreciate for his extreme patience and his determination towards the goal.
                       </p>
                     </div>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Paul Freeman</span>
+                      <span>Bhavya sri Khandrika</span>
                     </h6>
                     <div className="author">
-                      <span>Photographer</span>
+                      <span>Organising Team, Sumshodini'20</span>
                     </div>
                   </div>
                   <div
@@ -877,8 +879,7 @@ const Index = () => {
         </div>
       </section>
       {/* Section - Pricing */}
-      <section className="lui-section lui-gradient-center" id="pricing-section">
-        {/* Heading */}
+      {/* <section className="lui-section lui-gradient-center" id="pricing-section">
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
@@ -902,7 +903,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        {/* Pricing */}
+
         <div className="v-line v-line-left">
           <div className="container">
             <div className="pricing-items row">
@@ -1086,10 +1087,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section - Blog */}
-      <section className="lui-section lui-gradient-top" id="blog-section">
-        {/* Heading */}
+      {/* <section className="lui-section lui-gradient-top" id="blog-section">
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
@@ -1113,7 +1113,6 @@ const Index = () => {
             </div>
           </div>
         </div>
-        {/* Archive */}
         <div className="v-line v-line-right">
           <div className="container">
             <div className="blog-items row">
@@ -1253,7 +1252,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
         {/* Heading */}
@@ -1297,10 +1296,10 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span>IIIT Hyderabad, Gachibowli, Hyderabad, India</span>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     className="numbers-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
@@ -1308,12 +1307,12 @@ const Index = () => {
                       <i aria-hidden="true" className="far fa-user" />
                     </div>
                     <div className="title">
-                      <span> Freelance </span>
+                      <span> Collabroation & Freelancin </span>
                     </div>
                     <div className="lui-text">
                       <span> Available Right Now </span>
                     </div>
-                  </div>
+                  </div> */}
                   <div
                     className="numbers-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
@@ -1325,7 +1324,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> likhithkanigolla@gmail.com </span>
                     </div>
                   </div>
                   <div
@@ -1339,7 +1338,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> +91 95736 18704 </span>
                     </div>
                   </div>
                 </div>
@@ -1392,10 +1391,10 @@ const Index = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
                           <div className="terms-label">
-                            * Accept the terms and conditions.
+                            {/* * Accept the terms and conditions. */}
                           </div>
                           <a
-                            href="#"
+                            href="mailto:likhithkanigolla@gmail.com"
                             className="btn"
                             onclick="$('#cform').submit(); return false;"
                           >

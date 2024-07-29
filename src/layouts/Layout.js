@@ -34,7 +34,7 @@ const Layout = ({ children, pageClassName }) => {
         {/* Wrapper */}
         <div className="wrapper">{children}</div>
         {/* Footer */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
       {/* cursor */}
       <div className="cursor" />

@@ -48,48 +48,48 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-ui-ux-design"
+              "sorting-web-development"
             )}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
+            onClick={handleFilterKeyChange("sorting-web-development")}
+            data-href=".sorting-web-development"
           >
-            UI UX Design
+            Web-Development
           </a>
           <a
-            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
+            className={`c-pointer lui-subtitle ${activeBtn("sorting-backend-development")}`}
+            onClick={handleFilterKeyChange("sorting-backend-development")}
+            data-href=".sorting-backend-development"
           >
-            Photography
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-development"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
-          >
-            Development
+            Backend-Development
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-branding"
+              "sorting-python-development"
             )}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
+            onClick={handleFilterKeyChange("sorting-python-development")}
+            data-href=".sorting-python-development"
           >
-            Branding
+            Python-Development
+          </a>
+          <a
+            className={`c-pointer lui-subtitle ${activeBtn(
+              "sorting-machine-learning"
+            )}`}
+            onClick={handleFilterKeyChange("sorting-machine-learning")}
+            data-href=".sorting-machine-learning"
+          >
+            machine-learning
           </a>
         </div>
         <div className="works-items works-masonry-items row">
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web-development sorting-backend-development sorting-machine-learning ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/dt_waternetwork/simulation">
                     <a>
                       <img
                         decoding="async"
@@ -102,19 +102,18 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Web-Development, backend-development </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Zorro</a>
+                  <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/dt_waternetwork/simulation">
+                    <a>Digital Twin</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  The Digital Twin for Water Network integrates real-time sensor monitoring and control and a user-friendly dashboard for visualizing and simulating water quality scenarios in collaboration with ZF Technologies.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/dt_waternetwork/simulation">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -126,14 +125,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web-development sorting-python-development ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/maintenance-dashboard">
                     <a>
                       <img
                         decoding="async"
@@ -146,19 +145,18 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
+                <span className="category">Web Development, Python</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Gooir</a>
+                  <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/maintenance-dashboard">
+                    <a>Maintenance Dashboard</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  A real-time dashboard for monitoring a 300+ node smart city system, utilizing React JS and Grafana. It helps in monitoring the health of the system and provides insights into the system's performance.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="https://smartcitylivinglab.iiit.ac.in/maintenance-dashboard">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -170,14 +168,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-backend-development ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://ctop.iiit.ac.in/">
                     <a>
                       <img
                         decoding="async"
@@ -190,19 +188,18 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category">backend-Development</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Explore</a>
+                  <Link legacyBehavior href="https://ctop.iiit.ac.in/">
+                    <a>ctOP</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Part of Developing, Deployment to build a scalable, secure, and user-friendly version of the oneM2M called ctOP (City IoT Operating Platform) in collaboration with Smart City Mission and IUDX.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="https://ctop.iiit.ac.in/">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -214,14 +211,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-python-development">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://github.com/likhithkanigolla/KIET_HACKATHON_EMOCYP-encryptor-decrypter">
                     <a>
                       <img
                         decoding="async"
@@ -234,19 +231,19 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category">Python, Cyber Security</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Mozar</a>
+                  <Link legacyBehavior href="https://github.com/likhithkanigolla/KIET_HACKATHON_EMOCYP-encryptor-decrypter">
+                    <a>EMOCYP</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  This project implements a 7-layered symmetric encryption algorithm to encrypt plain text into emojis and
+                  decrypt emojis back into plain text.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="https://github.com/likhithkanigolla/KIET_HACKATHON_EMOCYP-encryptor-decrypter">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -258,14 +255,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-python-development sorting-machine-learning ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/">
                     <a>
                       <img
                         decoding="async"
@@ -278,19 +275,19 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> Machine Learning </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Stay Fit</a>
+                  <Link legacyBehavior href="/">
+                    <a>Aqua Prognosticator</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Machine learning model that predicts water quality changes based on impurity levels. It Predicts the variance of the TDS value with
+                  respect to the impurities like sand, soil, etc.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -302,7 +299,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web-development sorting-backend-development ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -322,19 +319,19 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> web-development, backend-development</span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Kana</a>
+                  <Link legacyBehavior href="/">
+                    <a>LuminoSynth</a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  A software replica of a physical hardware-led system, accurately predicting color reflection
+                  under various conditions.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/">
                   <a className="lnk">See project</a>
                 </Link>
               </div>
@@ -349,7 +346,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
         </div>
         {!noViewMore && (
           <div className="load-more-link">
-            <Link legacyBehavior href="/works">
+            <Link legacyBehavior href="https://github.com/likhithkanigolla">
               <a
                 className="btn scrolla-element-anim-1 scroll-animate"
                 data-animate="active"

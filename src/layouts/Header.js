@@ -147,13 +147,13 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#testimonials-sec
-                                onClick={() => linkClick()}tion"
+                                href="/#testimonials-section"
+                                onClick={() => linkClick()}
                               >
                                 Testimonials
                               </a>
                             </li>
-                            <li className="menu-item">
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -162,8 +162,8 @@ const Header = () => {
                               >
                                 Pricing
                               </a>
-                            </li>
-                            <li className="menu-item">
+                            </li> */}
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -172,8 +172,8 @@ const Header = () => {
                               >
                                 Blog
                               </a>
-                            </li>
-                            <li className="menu-item">
+                            </li> */}
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -255,34 +255,34 @@ const Header = () => {
                                   </Link>
                                 </li>
                               </ul>
-                            </li>
+                            </li> */}
                           </ul>
                         </div>
                         {/* social */}
                         <div className="menu-social-links">
                           <a
-                            href="http://dribbble.com"
+                            href="https://www.linkedin.com/in/balalikhithkanigolla/"
                             target="blank"
                             className="scrolla-element-anim-1"
-                            title="dribbble"
+                            title="linkedin"
                           >
-                            <i className="fab fa-dribbble" />
+                            <i className="fab fa-linkedin" />
                           </a>
                           <a
-                            href="http://twitter.com"
+                            href="https://www.github.com/likhithkanigolla/"
                             target="blank"
                             className="scrolla-element-anim-1"
-                            title="twitter"
+                            title="github"
                           >
-                            <i className="fab fa-twitter" />
+                            <i className="fab fa-github" />
                           </a>
                           <a
-                            href="http://behance.com"
+                            href="https://www.instagram.com/likhithkanigolla/"
                             target="blank"
                             className="scrolla-element-anim-1"
-                            title="behance"
+                            title="instagram"
                           >
-                            <i className="fab fa-behance" />
+                            <i className="fab fa-instagram" />
                           </a>
                         </div>
                         <div className="v-line-block">
