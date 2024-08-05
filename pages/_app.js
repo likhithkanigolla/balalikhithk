@@ -14,6 +14,10 @@ const App = ({ Component, pageProps }) => {
     <Fragment>
       <Head>
         <title>Bala Likhith Kanigolla</title>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Explore the professional profile of Bala Likhith Kanigolla, a Computer Science graduate with extensive experience in cybersecurity and software development. With a proven track record from roles at Nyalazone Solutions and IIIT Hyderabad, Bala has excelled in automating tasks with Jenkins, conducting comprehensive security research, and contributing to smart city security. Recognized with the Indian Achievers Award and a published paper at COMSNETS 2023, Bala is also an accomplished organizer and keynote speaker. Discover more about Bala Likhith Kanigolla's contributions to cybersecurity and technology."></meta>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
