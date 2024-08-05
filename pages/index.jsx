@@ -135,7 +135,7 @@ const Index = () => {
               </div>
             </div>
             <div className="lui-bgtitle">
-              <span> Web Developer </span>
+              <span>Likhith Kanigolla</span>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ const Index = () => {
                 data-splitting="words"
                 data-animate="active"
               >
-                <span> What I do </span>
+                <span> What Likhith Kanigolla do </span>
               </h2>
               <div
                 className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -650,7 +650,7 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                We developed a great partnership with Bala Likhith Kanigolla and his dedication to a website is evident in all aspects of the site.He creates a professional,attractive and effective website.He will be the "Best Website Designer" to our company.
+                We developed a great partnership with Bala Likhith Kanigolla and his dedication to a website is evident in all aspects of the site. Likhith Kanigolla creates a professional,attractive and effective website.He will be the "Best Website Designer" to our company.
                       </p>
                     </div>
                   </div>
@@ -699,7 +699,7 @@ const Index = () => {
                     <div>
                       <p>
    
-                      Likhith is a great and hardworking person. He has been working and handling all the technical work in our organization with perfection. The way he handled every task with such a ease is really admirable. I wish all the luck to him for his further journey.
+                      Likhith Kanigolla is a great and hardworking person. He has been working and handling all the technical work in our organization with perfection. The way he handled every task with such a ease is really admirable. I wish all the luck to him for his further journey.
                                         
                       </p>
                     </div>
@@ -749,7 +749,7 @@ const Index = () => {
                     <div>
                       <p>
                        
-                      Mr. Likhith, has done a wonderful job in designing/styling our organizations website. He has shown his real potential as a team player and leader. It is helpful to showcase our all events at a glance. His quality of efforts is reflected by his work, which really satisfactory.
+                      Mr. Likhith Kanigolla, has done a wonderful job in designing/styling our organizations website. He has shown his real potential as a team player and leader. It is helpful to showcase our all events at a glance. His quality of efforts is reflected by his work, which really satisfactory.
 
                                         
                       </p>
@@ -800,7 +800,7 @@ const Index = () => {
                     <div>
                       <p>
                     
-                      I am really happy with your service, it is exceptional, Web Design team is just great.I am impressed. Very co-operative and creative team,  we enjoyed to work with you. I will recommend to all my customers, friends and clients.Keep it up
+                      I am really happy with Likhith Kanigolla service, it is exceptional, Web Design team is just great.I am impressed. Very co-operative and creative team,  we enjoyed to work with you. I will recommend to all my customers, friends and clients.Keep it up Likhith Kanigolla
                                         Thank you for your great job.
                                         
                       </p>
@@ -850,7 +850,7 @@ const Index = () => {
                   <div className="text lui-text">
                     <div>
                       <p>
-                      Mr. Likhith is very passionate about the IT domain and its services. He has gained a good appreciation and  become the mentor for his juniors. Precisely speaking, I must appreciate for his extreme patience and his determination towards the goal.
+                      Mr. Likhith Kanigolla is very passionate about the IT domain and its services. He has gained a good appreciation and  become the mentor for his juniors. Precisely speaking, I must appreciate for his extreme patience and his determination towards the goal.
                       </p>
                     </div>
                   </div>

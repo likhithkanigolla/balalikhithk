@@ -32,7 +32,7 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className={`project-heading`} style={{textAlign: "center"}}>
-        Days I <strong className="purple">Code</strong>
+        Days Likhith Kanigolla <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
         username="likhithkanigolla"
